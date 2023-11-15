@@ -1,6 +1,5 @@
-//
-// Created by nickobelic1999 on 2/08/2023.
-//
+
+// Created by ford on 03/10/2023.
 
 #pragma once
 
@@ -16,9 +15,9 @@ namespace CoreGame
     /*
     GameController is the central interface of the game.
     This class will monitor the working of game:
-    *	Movement of snake
-    *	Checking collisions
-    *	When to play sound etc
+    *	making movement of snake
+    *	checking for collisions
+    *	When to play the sound etc
     */
 
 

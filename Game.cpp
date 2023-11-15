@@ -1,6 +1,5 @@
-//
-// Created by nickobelic1999 on 2/08/2023.
-//
+
+// Created by Ford on 04/10/2023.
 
 #include "Game.hpp"
 
@@ -58,17 +57,17 @@ void CoreGame::GameController::gameLoop()
         if (snake.died())
         {
             // Before we die, we need too:
-            // 0 - Read in scores file
+            // 0. Read in scores file
             readScores();
 
             scoresList.emplace_back(name, score);
-            // 1 - Ask for username.
-            // 2 - Check username in json file.
-            // 3 - Check score, if score is greater than current score update score.
-            // 4 - Order file from highest to lowest.
+            //1. Ask for the username.
+            //2. Check for username in json file.
+            //3. Check score, if score is greater than current score update score.
+            //4. Order file from highest to lowest.
             sortScores();
 
-            // 5 - Write new file backout.
+            //5. Write new file backout.
             writeScores();
 
             //game Over

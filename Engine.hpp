@@ -1,6 +1,5 @@
-//
-// Created by nickobelic1999 on 31/07/2023.
-//
+
+// Created by Ford on 03/10/2023.
 
 #pragma once
 
@@ -10,9 +9,8 @@
 namespace CoreGame
 {
     /*
-    Contains functions that will be used to perform certain
-    actions that will be needed that will be needed by game
-
+    Contains aspects that will be used for certain
+    actions that will be needed by the game
     */
 
     bool checkCollision(const sf::RectangleShape&, const sf::RectangleShape& );
